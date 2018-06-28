@@ -15,18 +15,17 @@ public class SpringBootHelloWorldApplication {
 
 	public static void main(String[] args) throws RestClientException, IOException {
 
-		ApplicationContext ctx = SpringApplication.run(
-				SpringBootHelloWorldApplication.class, args);
+		ApplicationContext ctx = SpringApplication.run(	SpringBootHelloWorldApplication.class, args );
 		
 		ConsumerControllerClient consumerControllerClient=ctx.getBean(ConsumerControllerClient.class);
-		System.out.println(consumerControllerClient);
+		System.out.println( consumerControllerClient );
 		consumerControllerClient.getEmployee();		
 	
 	}
 	
 	@Bean
 	public  ConsumerControllerClient  consumerControllerClient() {
-		return  new ConsumerControllerClient();
+		return new ConsumerControllerClient();
 	}	
 	
 }
