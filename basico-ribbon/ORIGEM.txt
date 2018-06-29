@@ -1,0 +1,3 @@
+http://www.javainuse.com/spring/spring_ribbon
+
+http://localhost:8094/employee-consumer/consume
