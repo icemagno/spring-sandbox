@@ -1,0 +1,6 @@
+http://www.javainuse.com/spring/spring_cloud_config_server
+http://www.javainuse.com/spring/spring_cloud_config_server_using_git
+
+http://oblivion:9080/terena/config-server/new/master
+user terena
+passwd antares2
